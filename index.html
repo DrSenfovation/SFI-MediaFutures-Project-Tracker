@@ -1155,15 +1155,16 @@
                 name: "Gaze Tracking Project",
                 partners: ["TV2", "VIZRT", "NORCE"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Launched Gaze Tracking Study with TV2 and VIZRT, analyzing control room production teams during live broadcasting to optimize workflow efficiency and software/hardware usability (research-as-a-service collaboration).",
+                description: "Launched Gaze Tracking Study with TV2 and VIZRT, analyzing control room production teams during live broadcasting to optimize workflow efficiency and software/hardware usability (research-as-a-service collaboration). Work now extends to an experimental prototype and exploration of gaze nudging.",
                 purpose: "Exploring news control room efficiency and production control room usability using gaze tracking technology (Pupil Labs). Analyzing how TV2 interacts with VIZRT's Mosart technology in real studio settings in Oslo and Bergen. Examining screen positioning, hard/software usage, and overall workflow.",
                 startDate: "2025-02-01",
-                endDate: "2026-08-31",
+                endDate: "2027-06-30",
                 phases: [
                     { type: 1, start: "2025-02-01", end: "2025-04-30", name: "Ideation & Onboarding" },
                     { type: 2, start: "2025-05-01", end: "2025-10-31", name: "Data Collection" },
-                    { type: 3, start: "2025-11-01", end: "2026-05-31", name: "Data Analysis", current: true },
-                    { type: 5, start: "2026-06-01", end: "2026-08-31", name: "Implementation & Reporting" }
+                    { type: 3, start: "2025-11-01", end: "2026-12-31", name: "Data Analysis", current: true },
+                    { type: 4, start: "2026-06-01", end: "2027-03-31", name: "Experimental Prototype & Gaze Nudging" },
+                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Implementation & Reporting" }
                 ],
                 team: {
                     "TV2": ["Snorre Alvsvag (Backend Developer)", "Eivind Halle (Lead Architect, Production TV 2 Norway)", "Karen Marie Paulsen (Head of Production Team)", "Helene Elvik Ibsen Bulko (Producer, Bergen)", "Olav Vlam (Producer, Bergen)", "Arber Maliqi (Producer, Bergen)", "Håvard Kinnerød (Producer, Oslo)", "Linn Heilien (Producer, Oslo)", "Åse Røyset Spalder (Producer, Oslo)", "Wilfred Lie (Producer, Oslo)", "Gunn Sissel Omholt (Producer, Oslo)", "Ole Sandholt (Producer, Oslo)", "Erlend Johnsrud Våge (Producer, Oslo)"],
@@ -1175,16 +1176,19 @@
             },
             {
                 id: 10,
-                name: "Sequential RecSys",
+                name: "Sequential RecSys ✓ completed",
+                completed: true,
                 partners: ["TV2"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Recommender system project for TV2's streaming platform to optimize content recommendations and user engagement.",
+                description: "Recommender system project for TV2's streaming platform to optimize content recommendations and user engagement. The project has concluded, but may be continued in a follow-up phase.",
                 startDate: "2025-10-01",
-                endDate: "2026-06-30",
+                endDate: "2026-07-31",
                 phases: [
-                    { type: 1, start: "2025-10-01", end: "2026-03-31", name: "Project Ideation", current: true },
+                    { type: 1, start: "2025-10-01", end: "2026-03-31", name: "Project Ideation" },
                     { type: 2, start: "2026-01-01", end: "2026-01-31", name: "Data Sharing" },
-                    { type: 3, start: "2026-01-01", end: "2026-06-30", name: "Data Analysis" }
+                    { type: 3, start: "2026-01-01", end: "2026-04-30", name: "Data Analysis" },
+                    { type: 4, start: "2026-04-01", end: "2026-06-30", name: "Prototyping & Testing" },
+                    { type: 5, start: "2026-06-01", end: "2026-07-31", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "TV2": ["Snorre Alvsvag", "Lubos Steskal"],
@@ -1198,15 +1202,15 @@
                 name: "AI Editor - Editorial NewRecSys",
                 partners: ["TV2"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Editorial news recommendation system for TV2, focusing on personalized news delivery and editorial control.",
+                description: "Editorial news recommendation system for TV2, focusing on personalized news delivery and editorial control. A paper based on the project is currently in preparation.",
                 startDate: "2025-01-01",
-                endDate: "2026-07-31",
+                endDate: "2027-03-31",
                 phases: [
                     { type: 1, start: "2025-01-01", end: "2025-06-30", name: "Project Ideation & Onboarding" },
                     { type: 2, start: "2025-07-01", end: "2025-09-30", name: "Data Sharing" },
                     { type: 3, start: "2025-10-01", end: "2025-12-31", name: "Data Analysis & Development" },
                     { type: 4, start: "2025-10-01", end: "2026-03-31", name: "Prototyping & Testing" },
-                    { type: 5, start: "2026-04-01", end: "2026-07-31", name: "Reporting & Finalization", current: true }
+                    { type: 5, start: "2026-04-01", end: "2027-03-31", name: "Reporting & Paper Production", current: true }
                 ],
                 team: {
                     "TV2": ["Lubos Steskal"],
@@ -1217,17 +1221,17 @@
             },
             {
                 id: 2,
-                name: "AI Sport Video Clipping Project",
+                name: "Video Moment Retrieval and Highlight Detection",
                 partners: ["Amedia"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Broadcast Sport Video clipping (SVC) - Developing automated editing tool for sports video, extracting highlight-worthy segments (e.g., goals, emotional reactions). Waiting for annotated dataset to develop models.",
+                description: "Developing automated video moment retrieval and highlight detection for broadcast sports video, extracting highlight-worthy segments (e.g., goals, emotional reactions) for automated editing.",
                 startDate: "2025-10-01",
                 endDate: "2026-09-30",
                 phases: [
                     { type: 1, start: "2025-10-01", end: "2025-12-31", name: "Project Ideation" },
-                    { type: 2, start: "2026-01-01", end: "2026-04-30", name: "Data Sharing", current: true },
+                    { type: 2, start: "2026-01-01", end: "2026-04-30", name: "Data Sharing" },
                     { type: 3, start: "2026-05-01", end: "2026-08-31", name: "Data Analysis" },
-                    { type: 4, start: "2026-09-01", end: "2026-09-30", name: "Demo/Implementation" }
+                    { type: 4, start: "2026-09-01", end: "2026-09-30", name: "Demo/Implementation", current: true }
                 ],
                 team: {
                     "Amedia": ["Sigve Harang", "Emiliano Guevara"],
@@ -1241,13 +1245,13 @@
                 name: "Young Audiences & News Consumption",
                 partners: ["Amedia", "UvA"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Research project analyzing comparable data on how young audiences are attracted to news offerings through cost-free subscription initiatives provided by Amedia. The task is to assess the impact of this initiative on young audience engagement and news consumption patterns.",
+                description: "Research project analyzing comparable data on how young audiences are attracted to news offerings through cost-free subscription initiatives provided by Amedia. The task is to assess the impact of this initiative on young audience engagement and news consumption patterns. A secondment with Amedia takes place in September 2026.",
                 startDate: "2025-10-01",
-                endDate: "2026-07-31",
+                endDate: "2027-03-31",
                 phases: [
-                    { type: 1, start: "2025-10-01", end: "2026-03-31", name: "Project Ideation", current: true },
-                    { type: 2, start: "2026-01-01", end: "2026-01-31", name: "Data Sharing" },
-                    { type: 3, start: "2026-01-01", end: "2026-06-30", name: "Data Analysis" }
+                    { type: 1, start: "2025-10-01", end: "2026-12-31", name: "Project Ideation & Onboarding (extended)", current: true },
+                    { type: 2, start: "2027-01-01", end: "2027-01-31", name: "Data Sharing" },
+                    { type: 3, start: "2027-02-01", end: "2027-03-31", name: "Data Analysis" }
                 ],
                 team: {
                     "Amedia": [],
@@ -1258,84 +1262,67 @@
             },
             {
                 id: 4,
-                name: "News Recommendation",
+                name: "News Recommendation ✓ completed",
+                completed: true,
                 partners: ["DN Media Group"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Sequential recommendation system testing at DN, including preparatory data analysis of reading time patterns by hour of day. A/B testing implementation.",
+                description: "Sequential recommendation system testing at DN, including preparatory data analysis of reading time patterns by hour of day. A/B testing implementation. The project concluded with a master's thesis, codebase, and poster delivered.",
                 startDate: "2025-04-01",
-                endDate: "2026-06-30",
+                endDate: "2026-07-31",
                 phases: [
                     { type: 1, start: "2025-04-01", end: "2025-09-30", name: "Project Ideation" },
                     { type: 2, start: "2025-07-01", end: "2025-09-30", name: "Data Sharing" },
-                    { type: 3, start: "2025-07-01", end: "2026-03-31", name: "Data Analysis", current: true },
-                    { type: 4, start: "2026-04-01", end: "2026-06-30", name: "A/B Testing & Reporting" }
+                    { type: 3, start: "2025-07-01", end: "2026-03-31", name: "Data Analysis" },
+                    { type: 4, start: "2026-04-01", end: "2026-05-31", name: "A/B Testing" },
+                    { type: 5, start: "2026-06-01", end: "2026-07-31", name: "Reporting & Finalization" }
                 ],
                 team: {
-                    "DN Media Group": ["Igor Pipkin (Key Contact)"],
+                    "DN Media Group": ["Krishna Mohan Shah (Key Contact)"],
                     "MediaFutures": ["Prof. Mehdi Elahi (Supervisor)", "Olav Særud Gangenes (MA Student)"]
                 },
-                strategicValue: "TBD",
+                strategicValue: "Explores how gamified, trust-building interfaces can re-engage young audiences with local news, addressing news avoidance at Bergens Tidende.",
                 workPackage: "R1-2"
-            },
-            {
-                id: 5,
-                name: "Multimodal Number Verification for Financial Reports",
-                partners: ["DN Media Group"],
-                type: "Industry Partner-Led Innovation Project",
-                description: "Analyzing financial reports using AI and multimodal approaches for automated number verification. Focuses on extracting and verifying numerical data from complex financial documents including tables, using multimodal AI to ensure accuracy in financial journalism.",
-                startDate: "2026-01-01",
-                endDate: "2026-12-31",
-                phases: [
-                    { type: 1, start: "2026-01-01", end: "2026-07-31", name: "Onboarding", current: true },
-                    { type: 3, start: "2026-08-01", end: "2026-08-31", name: "Data Analysis & Development (Peter's Secondment)" },
-                    { type: 5, start: "2026-09-01", end: "2026-12-31", name: "Reporting & Finalization" }
-                ],
-                team: {
-                    "DN Media Group": ["Igor Pipkin", "Magnus Aabech"],
-                    "MediaFutures": ["Peter Røysland Aarnes", "Vinay Setty"]
-                },
-                strategicValue: "Enhances DN Media Group's financial journalism capabilities through automated verification of numbers in financial reports. Addresses critical need for accuracy in financial reporting while improving efficiency in analyzing complex financial documents with tables and numerical data.",
-                workPackage: "RS3"
             },
             {
                 id: 6,
                 name: "Young Audiences: News Avoidance & Gamification",
                 partners: ["Bergens Tidende", "UvA"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Research project exploring how to overcome news avoidance among young audiences through trust building AI tools and gamification approaches.",
+                description: "Research project exploring how to overcome news avoidance among young audiences through trust building AI tools and gamification approaches. Collaboration with Bergens Tidende is ongoing, with a secondment planned for autumn 2026.",
                 startDate: "2025-10-01",
-                endDate: "2026-12-31",
+                endDate: "2027-06-30",
                 phases: [
-                    { type: 1, start: "2025-10-01", end: "2026-03-31", name: "Project Ideation", current: true, details: "Secondments and office meetings to explore project" },
-                    { type: 3, start: "2026-01-01", end: "2026-12-31", name: "Project Start & Development" }
+                    { type: 1, start: "2025-10-01", end: "2026-12-31", name: "Project Ideation", current: true, details: "Secondments and office meetings to explore project; secondment planned for autumn 2026" },
+                    { type: 3, start: "2027-01-01", end: "2027-06-30", name: "Project Start & Development" }
                 ],
                 team: {
                     "Bergens Tidende": ["Lasse Lamprecht", "Jan Stian Vold"],
                     "MediaFutures": ["Svenja Lys Forstner (PhD Candidate)"]
                 },
-                strategicValue: "TBD",
+                strategicValue: "Validated sequential recommendation for DN through live A/B testing, delivering a master's thesis, codebase, and poster that DN can build on.",
                 workPackage: "R1-2"
             },
             {
                 id: 7,
-                name: "SuperPods Podcast Platform",
+                name: "SuperPods Podcast Platform ✓ completed",
+                completed: true,
                 partners: ["Schibsted"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Interactive podcast platform transforming audio content discovery through dynamic graph visualization of linked segments by topic. Features GenAI-powered transitions, contextual summaries, and natural language search. Users curate custom 'SuperPods' from multiple episodes and creators, enhancing discoverability through topic-based navigation.",
+                description: "Interactive podcast platform transforming audio content discovery through dynamic graph visualization of linked segments by topic. Features GenAI-powered transitions, contextual summaries, and natural language search. Users curate custom 'SuperPods' from multiple episodes and creators, enhancing discoverability through topic-based navigation. DN Media Group has expressed interest in picking up the project in the future, particularly around text-to-speech and AI-generated podcasts.",
                 startDate: "2025-01-01",
                 endDate: "2026-03-31",
                 phases: [
                     { type: 1, start: "2025-01-01", end: "2025-06-30", name: "Project Ideation" },
                     { type: 2, start: "2025-04-01", end: "2025-06-30", name: "Data Sharing with VG" },
                     { type: 3, start: "2025-07-01", end: "2025-09-30", name: "Data Analysis & Backend Development" },
-                    { type: 4, start: "2025-07-01", end: "2025-12-31", name: "Frontend Development", current: true },
-                    { type: 4, start: "2026-01-01", end: "2026-03-31", name: "Testing/Deployment" }
+                    { type: 4, start: "2025-07-01", end: "2025-12-31", name: "Frontend Development" },
+                    { type: 5, start: "2026-01-01", end: "2026-03-31", name: "Testing/Deployment & Finalization" }
                 ],
                 team: {
                     "Schibsted": ["Njål Borch (AI Team)"],
                     "MediaFutures": ["Yuki Onishi (Project Lead)", "Vegard Erlend Bolstad (Assistant Researcher)"]
                 },
-                strategicValue: "TBD",
+                strategicValue: "Demonstrated a new model for podcast discovery through topic-linked segments, with DN Media Group interested in taking the concept forward.",
                 workPackage: "RS4"
             },
             {
@@ -1343,17 +1330,19 @@
                 name: "Next Title Recommender Systems",
                 partners: ["NRK", "Uni Klagenfurt"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Recommender system project for NRK. Full project scope to be determined after data sharing.",
+                description: "Recommender system project for NRK. The first project phase is completed and the collaboration continues, with Jia-Hua Jeng joining the team.",
                 startDate: "2025-07-01",
-                endDate: "2026-06-30",
+                endDate: "2027-06-30",
                 phases: [
-                    { type: 1, start: "2025-07-01", end: "2025-12-31", name: "Project Ideation" },
+                    { type: 1, start: "2025-07-01", end: "2025-12-31", name: "Project Ideation & Onboarding" },
                     { type: 2, start: "2026-01-01", end: "2026-01-31", name: "Data Sharing" },
-                    { type: 3, start: "2026-01-19", end: "2026-06-30", name: "Data Analysis", current: true }
+                    { type: 3, start: "2026-01-19", end: "2026-03-31", name: "Data Analysis" },
+                    { type: 4, start: "2026-04-01", end: "2027-03-31", name: "Prototyping & Testing", current: true },
+                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "NRK": ["Eva Hagan", "Anja Svartberg", "Kristine Jun Grøttland", "Eirik Sæther", "Gro Nilsen", "Joakim Rishaug"],
-                    "MediaFutures": ["Dietmar Jannach", "Mehdi Elahi", "Erik Knudsen", "Anastasiia Klimashevskaia", "Marlene Holzleitner (AAU - supporting)", "Gerry André Smøraas Amundsen"]
+                    "MediaFutures": ["Dietmar Jannach", "Mehdi Elahi", "Erik Knudsen", "Anastasiia Klimashevskaia", "Marlene Holzleitner (AAU - supporting)", "Gerry André Smøraas Amundsen", "Jia-Hua Jeng", "Nafiseh Shabib"]
                 },
                 strategicValue: "Enhances user engagement and content discovery on NRK's streaming platform through intelligent next-title recommendations, helping Norway's public broadcaster compete effectively in the streaming landscape while keeping audiences engaged with quality public service content.",
                 workPackage: "R1-2"
@@ -1407,22 +1396,22 @@
             },
             {
                 id: 13,
-                name: "AI Lifestyle News Analyzer",
+                name: "VITAL – Health and Lifestyle News Analyzer",
                 partners: ["Factiverse", "UvA", "UiS"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Reframing, Verifying, and Personalizing Lifestyle News using cutting edge LLMs. Tackling lifestyle news misinformation in the media with advanced AI-powered analysis and verification.",
+                description: "Reframing, verifying, and personalizing health and lifestyle news using cutting edge LLMs. VITAL detects health claims directly in news articles, assesses the specific claim against trusted sources, and communicates the evidence to different user groups. First release of the backend was presented at Arendalsuka on 11 August 2026. Project website: vital.mediafutures.no",
                 startDate: "2025-09-01",
-                endDate: "2026-08-31",
+                endDate: "2027-12-31",
                 phases: [
                     { type: 1, start: "2025-09-01", end: "2025-10-31", name: "Ideation & Onboarding" },
                     { type: 2, start: "2025-11-01", end: "2026-01-18", name: "Data Sharing" },
-                    { type: 3, start: "2026-01-19", end: "2026-03-31", name: "Data Analysis", current: true },
-                    { type: 4, start: "2026-04-01", end: "2026-06-30", name: "Prototyping & Testing" },
-                    { type: 5, start: "2026-07-01", end: "2026-08-31", name: "Reporting & Finalization" }
+                    { type: 3, start: "2026-01-19", end: "2026-03-31", name: "Data Analysis" },
+                    { type: 4, start: "2026-04-01", end: "2027-06-30", name: "Prototyping & First Demos", current: true },
+                    { type: 5, start: "2027-07-01", end: "2027-12-31", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Factiverse": [],
-                    "MediaFutures": ["Alain Starke (WP2)", "Yelyzaveta Lysova (WP2)", "Tobias Jovall Wessel (WP2)"]
+                    "MediaFutures": ["Christoph Trattner", "Alain Starke (WP2)", "Yelyzaveta Lysova (WP2)", "Tobias Jovall Wessel (WP2)"]
                 },
                 strategicValue: "Tackling health misinformation as a main target, developing AI-powered tools to reframe, verify, and personalize lifestyle news content to combat misinformation in health and lifestyle journalism.",
                 workPackage: "R1-2"
@@ -1434,10 +1423,12 @@
                 type: "Industry Partner-Led Innovation Project",
                 description: "Pioneering work combining large language models with geospatial health data to forecast disease outbreaks and model public health belief systems in conflict-affected regions. Applies AI-driven misinformation modeling and multilingual natural language processing to detect and respond to health misinformation across diverse media ecosystems. Focuses on Retrieval-Augmented Generation architectures and real-time misinformation detection in crisis settings, with particular emphasis on vaccine confidence during wartime and crisis communication.",
                 startDate: "2026-03-01",
-                endDate: "2026-12-31",
+                endDate: "2027-06-30",
                 phases: [
-                    { type: 1, start: "2026-03-01", end: "2026-05-31", name: "Ideation & Onboarding", current: true },
-                    { type: 2, start: "2026-06-01", end: "2026-08-31", name: "Data Collection" }
+                    { type: 1, start: "2026-03-01", end: "2026-05-31", name: "Ideation & Onboarding" },
+                    { type: 2, start: "2026-06-01", end: "2026-08-31", name: "Data Collection" },
+                    { type: 3, start: "2026-09-01", end: "2027-03-31", name: "Data Analysis", current: true },
+                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Rutgers Global Health Institute": ["Dr. Ubydul Haque (Assistant Professor)"],
@@ -1455,10 +1446,12 @@
                 type: "Industry Partner-Led Innovation Project",
                 description: "Building Appropriate Media Trust in Publics through the Curated Information Framework (CIF), providing a systematic approach to audience-specific AI communication that determines what kind of explanatory information should be shared with users, when, and how. Focuses on AI ethics, Human-Computer Interaction, and Sociotechnical Systems development for responsible recommender systems and explainable AI for media. Translates abstract ethical principles into actionable design patterns for Norwegian newsrooms to maintain high levels of public trust in the age of AI.",
                 startDate: "2026-03-01",
-                endDate: "2026-12-31",
+                endDate: "2027-06-30",
                 phases: [
-                    { type: 1, start: "2026-03-01", end: "2026-05-31", name: "Ideation & Onboarding", current: true },
-                    { type: 2, start: "2026-06-01", end: "2026-08-31", name: "Data Collection" }
+                    { type: 1, start: "2026-03-01", end: "2026-05-31", name: "Ideation & Onboarding" },
+                    { type: 2, start: "2026-06-01", end: "2026-12-31", name: "Data Collection & Study", current: true },
+                    { type: 3, start: "2027-01-01", end: "2027-04-30", name: "Data Analysis" },
+                    { type: 5, start: "2027-05-01", end: "2027-06-30", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Michigan State University": ["Dr. Emily LaRosa"],
@@ -1473,16 +1466,19 @@
             },
             {
                 id: 16,
-                name: "GIRAI Data Collection",
+                name: "GIRAI Data Collection ✓ completed",
+                completed: true,
                 partners: ["Global Center on AI Governance"],
                 type: "Research-Led Innovation Project",
-                description: "Leading Norway's country-level data collection for the Global Index for Responsible AI. Gathering evidence on government frameworks, implementation, and civil society involvement across five dimensions: Inclusion & Diversity, Ethics & Sustainability, Labour & Skills, Trust & Safety, and Use of AI in Public Sector Delivery. Participating in Global Research Network of 150+ responsible AI experts worldwide.",
+                description: "Leading Norway's country-level data collection for the Global Index for Responsible AI. Gathering evidence on government frameworks, implementation, and civil society involvement across five dimensions: Inclusion & Diversity, Ethics & Sustainability, Labour & Skills, Trust & Safety, and Use of AI in Public Sector Delivery. Participating in Global Research Network of 150+ responsible AI experts worldwide. The index report has been published as of July 2026 and the findings will be presented at the MediaFutures Annual Meeting 2026.",
                 startDate: "2025-10-01",
-                endDate: "2026-03-31",
+                endDate: "2026-07-31",
                 phases: [
                     { type: 1, start: "2025-10-01", end: "2025-11-30", name: "Project Ideation" },
                     { type: 2, start: "2025-12-01", end: "2026-01-15", name: "Data Sharing & Collection" },
-                    { type: 3, start: "2026-01-16", end: "2026-03-31", name: "Data Analysis & Reporting", current: true }
+                    { type: 3, start: "2026-01-16", end: "2026-03-31", name: "Data Analysis" },
+                    { type: 4, start: "2026-04-01", end: "2026-05-31", name: "Validation & Review" },
+                    { type: 5, start: "2026-05-01", end: "2026-07-31", name: "Reporting & Publication" }
                 ],
                 team: {
                     "Global Center on AI Governance": [],
@@ -1496,18 +1492,19 @@
                 name: "AI Political Discourse Analyzer",
                 partners: ["Factiverse"],
                 type: "Research-Led Innovation Project",
-                description: "Model-based approach for political discourse analysis that enables transparent reasoning, handles complex contexts, improves consistency and reproducibility. Contextualizes speech, identifies speaker's position and key strategies, uncovers underlying tensions. Useful for policy, media, and education.",
+                description: "Model-based approach for political discourse analysis that enables transparent reasoning, handles complex contexts, improves consistency and reproducibility. Contextualizes speech, identifies speaker's position and key strategies, uncovers underlying tensions. Useful for policy, media, and education. A new prototyping round is underway, with further collaboration with Factiverse planned.",
                 startDate: "2025-06-01",
-                endDate: "2026-06-30",
+                endDate: "2027-06-30",
                 phases: [
                     { type: 1, start: "2025-06-01", end: "2025-08-31", name: "Project Ideation" },
                     { type: 2, start: "2025-09-01", end: "2025-10-31", name: "Data Collection" },
                     { type: 3, start: "2025-10-01", end: "2025-11-30", name: "Data Analysis" },
-                    { type: 4, start: "2025-12-01", end: "2026-06-30", name: "Prototyping", current: true }
+                    { type: 4, start: "2025-12-01", end: "2027-03-31", name: "Prototyping (new round)", current: true },
+                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Factiverse": [],
-                    "MediaFutures": ["Fazle Rabbi (Associate Professor, Project Lead, WP3)"]
+                    "MediaFutures": ["Fazle Rabbi (Associate Professor, Project Lead, WP3)", "2 Vitas (names to be confirmed)"]
                 },
                 strategicValue: "Envisions transforming journalistic reporting on political speech through systematic AI-powered discourse analysis tools. Aims to partner with news media organizations to provide journalists with capabilities for transparent analysis of political discourse, identifying key strategies, underlying tensions, and speaker positions with reproducibility and interpretability.",
                 workPackage: "RS3"
@@ -1519,35 +1516,36 @@
                 type: "Industry Partner-Led Innovation Project",
                 description: "Using AI to support local newsrooms by empowering local democracy. Making municipal documents easily accessible to local journalists in Norway, as well as researchers, politicians, and the general public. Received NOK 500,000 innovation seed funding from UiB Idé with high societal relevance and clear potential for both technological and organizational growth.",
                 startDate: "2025-01-01",
-                endDate: "2026-08-31",
+                endDate: "2027-06-30",
                 phases: [
                     { type: 1, start: "2025-01-01", end: "2025-06-30", name: "Ideation & Onboarding" },
                     { type: 2, start: "2025-05-01", end: "2025-06-30", name: "Data Sharing" },
                     { type: 3, start: "2025-07-01", end: "2025-12-31", name: "Development" },
-                    { type: 4, start: "2025-10-01", end: "2026-06-30", name: "Prototyping & Further Development", current: true },
-                    { type: 5, start: "2026-07-01", end: "2026-08-31", name: "Reporting & Finalization" }
+                    { type: 4, start: "2025-10-01", end: "2027-03-31", name: "Prototyping & Further Development", current: true },
+                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Bergens Tidende": ["Lasse Lambrechts (Industry Leader & Head of AI)"],
-                    "MediaFutures": ["Andreas L. Opdahl (Task Leader, WP3)"]
+                    "MediaFutures": ["Andreas L. Opdahl (Task Leader, WP3)", "Bahareh Fatemi"]
                 },
                 strategicValue: "High societal relevance with clear potential for both technological and organizational growth, democratizing access to municipal governance information and strengthening local journalism capabilities across Norway.",
                 workPackage: "RS3"
             },
             {
                 id: 19,
-                name: "News Avoidance & Needs-Based Explanations",
+                name: "News Avoidance & Needs-Based Explanations ✓ completed",
+                completed: true,
                 partners: ["UvA"],
                 type: "Research-Led Innovation Project",
-                description: "Research study testing the effect of needs-based explanations (that address different main reasons for news avoidance) for recommended articles on young users' selection of low-interest news articles. Explores how explanations can reduce selective news avoidance among young audiences.",
+                description: "Research study testing the effect of needs-based explanations (that address different main reasons for news avoidance) for recommended articles on young users' selection of low-interest news articles. Explores how explanations can reduce selective news avoidance among young audiences. Resulted in a workshop paper presented in June 2026.",
                 startDate: "2026-01-05",
-                endDate: "2026-04-24",
+                endDate: "2026-06-30",
                 phases: [
                     { type: 1, start: "2026-01-05", end: "2026-01-12", name: "Ideation & Study Design" },
-                    { type: 4, start: "2026-01-12", end: "2026-01-30", name: "Create Study Prototype", current: true },
+                    { type: 4, start: "2026-01-12", end: "2026-01-30", name: "Create Study Prototype" },
                     { type: 2, start: "2026-02-02", end: "2026-02-27", name: "Data Collection - Run Study" },
                     { type: 3, start: "2026-02-16", end: "2026-03-27", name: "Data Analysis - Analyze Results" },
-                    { type: 5, start: "2026-03-16", end: "2026-04-24", name: "Reporting - Write Paper" }
+                    { type: 5, start: "2026-03-16", end: "2026-06-30", name: "Reporting - Paper & Workshop Presentation" }
                 ],
                 team: {
                     "UiB": ["Svenja Lys Forstner (PhD Candidate)"],
@@ -1559,39 +1557,40 @@
             },
             {
                 id: 20,
-                name: "Personalizing News Headlines with Retrieval-Augmented Generation",
+                name: "Personalizing News Headlines with Retrieval-Augmented Generation ✓ completed",
+                completed: true,
                 partners: ["TV2"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Leveraging retrieval-augmented generation (RAG) to create personalized news headlines that enhance reader engagement and click-through rates for TV2.",
                 startDate: "2025-04-01",
-                endDate: "2026-01-31",
+                endDate: "2026-05-31",
                 phases: [
                     { type: 1, start: "2025-04-01", end: "2025-06-30", name: "Ideation & Onboarding" },
                     { type: 2, start: "2025-07-01", end: "2025-07-31", name: "Data Sharing & Collection" },
                     { type: 3, start: "2025-07-01", end: "2025-10-31", name: "Data Analysis & Development" },
-                    { type: 4, start: "2025-07-01", end: "2025-10-31", name: "Prototyping & Testing" },
-                    { type: 5, start: "2025-10-01", end: "2026-01-31", name: "Reporting & Finalization", current: true }
+                    { type: 4, start: "2025-07-01", end: "2026-01-31", name: "Prototyping & Testing" },
+                    { type: 5, start: "2026-02-01", end: "2026-05-31", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "TV2": ["Lubos Steskal"],
                     "MediaFutures": ["Jiajing Wan", "Lilja Øvrelid", "Samia Touileb"]
                 },
                 strategicValue: "Enhances content personalization for TV2 by leveraging retrieval-augmented generation to create tailored news headlines, improving reader engagement and click-through rates.",
-                workPackage: "RS5"
+                workPackage: "R1-2, RS5"
             },
             {
                 id: 21,
-                name: "Persona-based Content Personalisation",
+                name: "Group-based Content Personalization",
                 partners: ["TV2"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Developing a persona-driven content recommendation system that enables sophisticated audience segmentation and personalized content delivery for TV2.",
+                description: "Comparing style-based groups against demographic groups as a basis for content personalization. Developed in collaboration with TV2, who are working on generative content recommendation. Jiajing Wan will undertake a secondment as part of the project.",
                 startDate: "2025-12-01",
                 endDate: "2026-12-31",
                 phases: [
                     { type: 1, start: "2025-12-01", end: "2025-12-31", name: "Ideation & Onboarding" },
                     { type: 2, start: "2025-12-01", end: "2025-12-31", name: "Data Sharing & Collection" },
-                    { type: 3, start: "2026-01-01", end: "2026-02-28", name: "Data Analysis & Development", current: true },
-                    { type: 4, start: "2026-03-01", end: "2026-09-30", name: "Prototyping & Testing" },
+                    { type: 3, start: "2026-01-01", end: "2026-02-28", name: "Data Analysis & Development" },
+                    { type: 4, start: "2026-03-01", end: "2026-09-30", name: "Prototyping & Testing", current: true },
                     { type: 5, start: "2026-10-01", end: "2026-12-31", name: "Reporting & Finalization" }
                 ],
                 team: {
@@ -1612,8 +1611,9 @@
                 endDate: "2026-03-31",
                 phases: [
                     { type: 1, start: "2025-08-01", end: "2025-10-31", name: "Ideation" },
-                    { type: 2, start: "2025-11-01", end: "2026-01-31", name: "Data Sharing" },
-                    { type: 4, start: "2026-02-01", end: "2026-12-31", name: "Prototyping" },
+                    { type: 2, start: "2025-11-01", end: "2025-12-31", name: "Data Sharing" },
+                    { type: 3, start: "2026-01-01", end: "2026-01-31", name: "Data Analysis & Development" },
+                    { type: 4, start: "2026-02-01", end: "2026-03-31", name: "Prototyping" },
                     { type: 5, start: "2026-01-01", end: "2026-03-31", name: "Reporting & Finalization" }
                 ],
                 team: {
@@ -1628,15 +1628,15 @@
                 name: "Fine-tuning LLMs for Robust Numerical Fact-Checking",
                 partners: ["UiS", "Factiverse"],
                 type: "Research-Led Innovation Project",
-                description: "Exploring adversarial fine-tuning to increase robustness of LLMs used for fact-checking. Previous research suggests non-fine-tuned LLMs can be easily fooled to misclassify claims when numerical values are altered, even when evidence does not support the claim.",
+                description: "Exploring adversarial fine-tuning to increase robustness of LLMs used for fact-checking. Previous research suggests non-fine-tuned LLMs can be easily fooled to misclassify claims when numerical values are altered, even when evidence does not support the claim. Peter's secondment takes place with Factiverse.",
                 startDate: "2026-01-01",
-                endDate: "2026-05-31",
+                endDate: "2027-03-31",
                 phases: [
                     { type: 1, start: "2026-01-01", end: "2026-01-31", name: "Ideation/Planning" },
                     { type: 2, start: "2026-02-01", end: "2026-02-15", name: "Data Sharing & Collection" },
-                    { type: 3, start: "2026-02-01", end: "2026-04-30", name: "Data Analysis & Development (Codebase & Preliminary Tests)", current: true },
-                    { type: 4, start: "2026-04-01", end: "2026-04-30", name: "Prototyping & Testing (Full Experiments)" },
-                    { type: 5, start: "2026-04-01", end: "2026-05-31", name: "Reporting & Finalization (ARR Submission)" }
+                    { type: 3, start: "2026-02-01", end: "2026-04-30", name: "Data Analysis & Development (Codebase & Preliminary Tests)" },
+                    { type: 4, start: "2026-05-01", end: "2026-12-31", name: "Prototyping & Testing (Full Experiments)", current: true },
+                    { type: 5, start: "2027-01-01", end: "2027-03-31", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "UiS": ["Peter Røysland Aarnes"],
@@ -1647,15 +1647,19 @@
             },
             {
                 id: 23,
-                name: "Controlled Personalization in News RecSys Project",
+                name: "Controlled Personalization in News RecSys Project ✓ completed",
+                completed: true,
                 partners: ["Schibsted"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Understanding impact of personalization on Aftenposten's mobile news app. Performing multifaceted analysis of A/B test outcomes, covering click-through rates, user engagement, and effects on user behavior. In-depth analysis confirming value of personalization on multiple levels.",
                 startDate: "2026-01-01",
                 endDate: "2026-08-31",
                 phases: [
+                    { type: 1, start: "2026-01-01", end: "2026-01-15", name: "Ideation & Onboarding" },
                     { type: 2, start: "2026-01-01", end: "2026-01-31", name: "Data Sharing" },
-                    { type: 3, start: "2026-02-01", end: "2026-08-31", name: "Data Analysis", current: true }
+                    { type: 3, start: "2026-02-01", end: "2026-05-31", name: "Data Analysis" },
+                    { type: 4, start: "2026-05-01", end: "2026-06-30", name: "A/B Test Evaluation" },
+                    { type: 5, start: "2026-07-01", end: "2026-08-31", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Schibsted": ["Christoph Schmitz (Product Manager at Aftenposten/Schibsted)", "Data team"],
@@ -1666,21 +1670,21 @@
             },
             {
                 id: 24,
-                name: "Norwegian Embedding Models for the Media Sector",
+                name: "Norwegian Embedding Benchmarking",
                 partners: ["UiO", "TV2", "Amedia", "DN Media Group", "Nasjonalbiblioteket"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Developing and evaluating embedding models based on Norwegian LLMs for the media sector. Embeddings are used to automatically assess similarities between news articles, different versions of articles, and finding related content.",
+                description: "Developing and evaluating embedding models based on Norwegian LLMs for the media sector. Embeddings are used to automatically assess similarities between news articles, different versions of articles, and finding related content. A paper on Bayesian LLM benchmarking (Ryan Marinelli) is to be presented at the 40th International Workshop on Statistical Modelling (IWSM), with an accompanying open-source package (bayesbench), documentation, and a Hugging Face demo space.",
                 startDate: "2026-01-01",
                 endDate: "2026-12-31",
                 phases: [
-                    { type: 1, start: "2026-01-01", end: "2026-03-31", name: "Ideation & Onboarding", current: true },
-                    { type: 2, start: "2026-04-01", end: "2026-06-30", name: "Data Sharing & Collection" },
-                    { type: 3, start: "2026-07-01", end: "2026-09-30", name: "Data Analysis & Development" },
+                    { type: 1, start: "2026-01-01", end: "2026-03-31", name: "Ideation & Onboarding" },
+                    { type: 2, start: "2026-04-01", end: "2026-09-30", name: "Pilot: Data Sharing & Collection (Amedia)", current: true },
+                    { type: 3, start: "2026-10-01", end: "2026-11-30", name: "Data Analysis & Development" },
                     { type: 4, start: "2026-07-01", end: "2026-12-31", name: "Prototyping & Testing" },
                     { type: 5, start: "2026-10-01", end: "2026-12-31", name: "Reporting & Finalization" }
                 ],
                 team: {
-                    "UiO": ["Ryan Anthony Marinelli", "Lilja Øvrelid", "Erik Knudsen"],
+                    "UiO": ["Ryan Anthony Marinelli", "Lilja Øvrelid"],
                     "TV2": ["Lubos Steskal"],
                     "Amedia": ["Emiliano Guevara"],
                     "DN Media Group": ["Krishna Mohan Shah"],
@@ -1694,13 +1698,13 @@
                 name: "User Needs Modeling for Norwegian News",
                 partners: ["UiO", "TV2", "Amedia"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Users engage with news in different ways based on their needs (updates, perspective, inspiration, entertainment). Developing NLP capabilities to classify news articles according to user needs to assist media outlets in news personalization.",
+                description: "Users engage with news in different ways based on their needs (updates, perspective, inspiration, entertainment). Developing NLP capabilities to classify news articles according to user needs to assist media outlets in news personalization. Data has been received from Amedia and first experimentation is underway.",
                 startDate: "2026-01-01",
                 endDate: "2027-09-30",
                 phases: [
-                    { type: 1, start: "2026-01-01", end: "2026-06-30", name: "Ideation & Onboarding", current: true },
-                    { type: 2, start: "2026-04-01", end: "2026-09-30", name: "Data Sharing & Collection" },
-                    { type: 3, start: "2026-10-01", end: "2026-12-31", name: "Data Analysis & Development" },
+                    { type: 1, start: "2026-01-01", end: "2026-06-30", name: "Ideation & Onboarding" },
+                    { type: 2, start: "2026-04-01", end: "2026-07-31", name: "Data Sharing & Collection (Amedia)" },
+                    { type: 3, start: "2026-08-01", end: "2026-12-31", name: "Data Analysis & First Experiments", current: true },
                     { type: 4, start: "2027-01-01", end: "2027-06-30", name: "Prototyping & Testing" },
                     { type: 5, start: "2027-04-01", end: "2027-09-30", name: "Reporting & Finalization" }
                 ],
@@ -1714,25 +1718,24 @@
             },
             {
                 id: 27,
-                name: "Maritime Industrial Intelligence from Multimodal Data",
-                partners: ["DN Media Group", "Bergens Tidende"],
+                name: "Hate Symbol Detection with Open Databases",
+                partners: ["Faktisk.no"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Combining satellite imagery and AIS vessel tracking to discover operational changes related to maritime industries including aquaculture. Detecting freight-rate changes, supply-chain disruptions, harvest cycles, feed-barge presence, harvesting/logistics vessel activity, and cleaning/maintenance patterns. Provides early sector intelligence and regional maritime reporting through an alert system for journalists to spot important changes before public reporting.",
+                description: "Automated detection of hate symbols in visual media content, drawing on open databases of known symbols and iconography. Supports fact-checkers and newsrooms in identifying extremist imagery at scale. A paper based on the project has been submitted for publication.",
                 startDate: "2026-02-01",
                 endDate: "2027-04-30",
                 phases: [
-                    { type: 1, start: "2026-02-01", end: "2026-04-30", name: "Ideation & Onboarding", current: true },
-                    { type: 2, start: "2026-05-01", end: "2026-06-30", name: "Data Sharing & Collection" },
-                    { type: 3, start: "2026-07-01", end: "2026-10-31", name: "Data Analysis & Development" },
-                    { type: 4, start: "2026-11-01", end: "2027-02-28", name: "Prototyping & Testing" },
+                    { type: 1, start: "2026-02-01", end: "2026-04-30", name: "Ideation & Onboarding" },
+                    { type: 2, start: "2026-05-01", end: "2026-07-31", name: "Data Sharing & Collection" },
+                    { type: 3, start: "2026-08-01", end: "2026-12-31", name: "Data Analysis & Development", current: true },
+                    { type: 4, start: "2027-01-01", end: "2027-02-28", name: "Prototyping & Testing" },
                     { type: 5, start: "2027-03-01", end: "2027-04-30", name: "Reporting & Finalization" }
                 ],
                 team: {
-                    "DN Media Group": ["TBD"],
-                    "Bergens Tidende": ["TBD"],
+                    "Faktisk.no": ["Runa Victoria Engen"],
                     "MediaFutures": ["Hina Afridi"]
                 },
-                strategicValue: "Provides early sector intelligence for maritime industries through satellite imagery and vessel tracking data. Enables journalists to spot significant operational changes in aquaculture and maritime supply chains before public reporting, enhancing investigative journalism capabilities and competitive advantage for DN Media Group and Bergens Tidende.",
+                strategicValue: "Strengthens Faktisk.no's capacity to identify extremist and hateful imagery in circulation, extending fact-checking beyond text to visual content and supporting a safer information environment.",
                 workPackage: "RS3"
             },
             {
@@ -1744,9 +1747,9 @@
                 startDate: "2026-01-01",
                 endDate: "2026-12-31",
                 phases: [
-                    { type: 1, start: "2026-01-01", end: "2026-05-31", name: "Ideation & Concept Development", current: true },
+                    { type: 1, start: "2026-01-01", end: "2026-05-31", name: "Ideation & Concept Development" },
                     { type: 3, start: "2026-06-01", end: "2026-08-31", name: "Data Analysis & Development" },
-                    { type: 4, start: "2026-09-01", end: "2026-11-30", name: "Prototyping & Testing" },
+                    { type: 4, start: "2026-09-01", end: "2026-11-30", name: "Prototyping & Testing", current: true },
                     { type: 5, start: "2026-12-01", end: "2026-12-31", name: "Reporting & Finalization" }
                 ],
                 team: {
@@ -1755,6 +1758,50 @@
                 },
                 strategicValue: "Investigates innovative approaches to dynamic, adaptive news content using LLMs, exploring how liquid content formats can enhance news delivery and audience engagement through Norwegian language technologies.",
                 workPackage: "RS5"
+            },
+            {
+                id: 29,
+                name: "Popularity Bias in News Recommender Systems",
+                partners: ["TV2"],
+                type: "Industry Partner-Led Innovation Project",
+                description: "Investigating popularity bias in news recommender systems at TV2 — how recommendation algorithms over-expose already popular content — and exploring mitigation strategies that preserve editorial diversity.",
+                startDate: "2026-03-01",
+                endDate: "2027-03-31",
+                phases: [
+                    { type: 1, start: "2026-03-01", end: "2026-06-30", name: "Ideation & Onboarding" },
+                    { type: 2, start: "2026-06-01", end: "2026-07-31", name: "Data Sharing" },
+                    { type: 3, start: "2026-08-01", end: "2026-12-31", name: "Data Analysis", current: true },
+                    { type: 4, start: "2027-01-01", end: "2027-02-28", name: "Prototyping & Testing" },
+                    { type: 5, start: "2027-03-01", end: "2027-03-31", name: "Reporting & Finalization" }
+                ],
+                team: {
+                    "TV2": ["Snorre Alvsvåg"],
+                    "MediaFutures": ["Prof. Mehdi Elahi", "Vegard Søderlund (Vitas)"]
+                },
+                strategicValue: "Addresses a core fairness and diversity challenge in news personalization. Helps TV2 ensure that algorithmic recommendation does not narrow the range of content audiences encounter, supporting editorial values while maintaining engagement.",
+                workPackage: "R1-2"
+            },
+            {
+                id: 30,
+                name: "Social Network Analysis & Fact-Checking of Protest Movements",
+                partners: ["NRK"],
+                type: "Industry Partner-Led Innovation Project",
+                description: "Project under ideation with NRK's investigative journalism team in Bergen, exploring social network analysis and fact-checking of emerging protest movements online, with the upcoming Norwegian election as context. Decision on the precise topic expected in October/November 2026.",
+                startDate: "2026-06-01",
+                endDate: "2027-12-31",
+                phases: [
+                    { type: 1, start: "2026-06-01", end: "2026-11-30", name: "Project Ideation", current: true },
+                    { type: 2, start: "2026-12-01", end: "2027-02-28", name: "Data Sharing & Collection" },
+                    { type: 3, start: "2027-03-01", end: "2027-08-31", name: "Data Analysis & Development" },
+                    { type: 4, start: "2027-09-01", end: "2027-11-30", name: "Prototyping & Testing" },
+                    { type: 5, start: "2027-12-01", end: "2027-12-31", name: "Reporting & Finalization" }
+                ],
+                team: {
+                    "NRK": ["Investigative Journalism Team, Bergen"],
+                    "MediaFutures": ["Vinay Setty", "Hina Afridi", "Christopher Senf", "Andreas L. Opdahl", "Fazle Rabbi"]
+                },
+                strategicValue: "Builds a direct collaboration with NRK's investigative journalism team, applying network analysis and fact-checking methods to online protest movements ahead of the Norwegian election. Positions MediaFutures' WP3 capabilities in a high-stakes, time-sensitive editorial context.",
+                workPackage: "RS3"
             }
         ];
 
@@ -2039,7 +2086,7 @@
         function updateStats(filteredProjects) {
             document.getElementById('totalProjects').textContent = filteredProjects.length;
             
-            const active = filteredProjects.length; // All MediaFutures projects are considered active
+            const active = filteredProjects.filter(p => !p.completed).length;
             document.getElementById('activeProjects').textContent = active;
 
             const partnersSet = new Set();
