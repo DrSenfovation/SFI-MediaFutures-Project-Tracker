@@ -462,6 +462,24 @@
             color: #e65100;
         }
 
+        .sdg-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            font-size: 0.7em;
+            font-weight: 600;
+            margin: 2px;
+            cursor: default;
+        }
+
+        .partner-tag.uib {
+            background: #dfe6ec;
+            color: #37474f;
+        }
+
         .partner-tag.rutgers-global-health-institute {
             background: #f8bbd0;
             color: #c2185b;
@@ -977,24 +995,24 @@
         <!-- SDG Legend -->
         <div class="legend" style="margin-top: 15px;">
             <div class="legend-title">UN Sustainable Development Goals (SDGs):</div>
-            <div style="font-size: 0.75em; color: #495057; margin-top: 8px; line-height: 1.4; display: grid; grid-template-columns: repeat(9, 1fr); gap: 8px;">
-                <div><strong>1:</strong> No Poverty</div>
-                <div><strong>2:</strong> Zero Hunger</div>
-                <div><strong>3:</strong> Good Health</div>
-                <div><strong>4:</strong> Quality Education</div>
-                <div><strong>5:</strong> Gender Equality</div>
-                <div><strong>6:</strong> Clean Water</div>
-                <div><strong>7:</strong> Clean Energy</div>
-                <div><strong>8:</strong> Decent Work</div>
-                <div><strong>9:</strong> Innovation</div>
-                <div><strong>10:</strong> Reduced Inequalities</div>
-                <div><strong>11:</strong> Sustainable Cities</div>
-                <div><strong>12:</strong> Responsible Consumption</div>
-                <div><strong>13:</strong> Climate Action</div>
-                <div><strong>14:</strong> Life Below Water</div>
-                <div><strong>15:</strong> Life on Land</div>
-                <div><strong>16:</strong> Peace & Justice</div>
-                <div><strong>17:</strong> Partnerships</div>
+            <div style="font-size: 0.75em; color: #495057; margin-top: 8px; line-height: 1.4; display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px 14px;">
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#F9CFD4;color:#A01929;flex:none;">1</span><span style="color:#6c757d;">No Poverty</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#F8EBD4;color:#9B7429;flex:none;">2</span><span style="color:#6c757d;">Zero Hunger</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#D8EAD3;color:#356F27;flex:none;">3</span><span style="color:#6c757d;">Good Health</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#F2CCD1;color:#8A1220;flex:none;">4</span><span style="color:#6c757d;">Quality Education</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#FFD4CE;color:#B22917;flex:none;">5</span><span style="color:#6c757d;">Gender Equality</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#CFF0F9;color:#1B849E;flex:none;">6</span><span style="color:#6c757d;">Clean Water</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#FEF2C9;color:#B08808;flex:none;">7</span><span style="color:#6c757d;">Clean Energy</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#EBCCD5;color:#71122E;flex:none;">8</span><span style="color:#6c757d;">Decent Work</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#FFDECF;color:#B14A1A;flex:none;">9</span><span style="color:#6c757d;">Innovation</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#F8CBDE;color:#9B0D48;flex:none;">10</span><span style="color:#6c757d;">Reduced Inequalities</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#FFE9CF;color:#B16E19;flex:none;">11</span><span style="color:#6c757d;">Sustainable Cities</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#F1E5D1;color:#866120;flex:none;">12</span><span style="color:#6c757d;">Responsible Consumption</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#D5E3D6;color:#2C5830;flex:none;">13</span><span style="color:#6c757d;">Climate Action</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#C9E8F7;color:#076A98;flex:none;">14</span><span style="color:#6c757d;">Life Below Water</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#DAF1D0;color:#3C861E;flex:none;">15</span><span style="color:#6c757d;">Life on Land</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#C7DEE9;color:#00496E;flex:none;">16</span><span style="color:#6c757d;">Peace & Justice</span></div>
+                <div style="display:flex;align-items:center;gap:6px;"><span class="sdg-badge" style="background:#CCD7DE;color:#12324A;flex:none;">17</span><span style="color:#6c757d;">Partnerships</span></div>
             </div>
             <div style="font-size: 0.75em; color: #868e96; margin-top: 8px; font-style: italic;">
                 <a href="https://sdgs.un.org/goals" target="_blank" style="color: #667eea; text-decoration: none;">Learn more →</a>
@@ -1152,8 +1170,9 @@
         const projects = [
             {
                 id: 1,
+                sdg: "8, 9",
                 name: "Gaze Tracking Project",
-                partners: ["TV2", "VIZRT", "NORCE"],
+                partners: ["TV2", "VIZRT", "NORCE", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Launched Gaze Tracking Study with TV2 and VIZRT, analyzing control room production teams during live broadcasting to optimize workflow efficiency and software/hardware usability (research-as-a-service collaboration). Work now extends to an experimental prototype and exploration of gaze nudging.",
                 purpose: "Exploring news control room efficiency and production control room usability using gaze tracking technology (Pupil Labs). Analyzing how TV2 interacts with VIZRT's Mosart technology in real studio settings in Oslo and Bergen. Examining screen positioning, hard/software usage, and overall workflow.",
@@ -1176,9 +1195,10 @@
             },
             {
                 id: 10,
+                sdg: "9",
                 name: "Sequential RecSys ✓ completed",
                 completed: true,
-                partners: ["TV2"],
+                partners: ["TV2", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Recommender system project for TV2's streaming platform to optimize content recommendations and user engagement. The project has concluded, but may be continued in a follow-up phase.",
                 startDate: "2025-10-01",
@@ -1199,8 +1219,9 @@
             },
             {
                 id: 11,
+                sdg: "9, 16",
                 name: "AI Editor - Editorial NewRecSys",
-                partners: ["TV2"],
+                partners: ["TV2", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Editorial news recommendation system for TV2, focusing on personalized news delivery and editorial control. A paper based on the project is currently in preparation.",
                 startDate: "2025-01-01",
@@ -1221,8 +1242,9 @@
             },
             {
                 id: 2,
+                sdg: "8, 9",
                 name: "Video Moment Retrieval and Highlight Detection",
-                partners: ["Amedia"],
+                partners: ["Amedia", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Developing automated video moment retrieval and highlight detection for broadcast sports video, extracting highlight-worthy segments (e.g., goals, emotional reactions) for automated editing.",
                 startDate: "2025-10-01",
@@ -1242,8 +1264,9 @@
             },
             {
                 id: 3,
+                sdg: "4, 16",
                 name: "Young Audiences & News Consumption",
-                partners: ["Amedia", "UvA"],
+                partners: ["Amedia", "UvA", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Research project analyzing comparable data on how young audiences are attracted to news offerings through cost-free subscription initiatives provided by Amedia. The task is to assess the impact of this initiative on young audience engagement and news consumption patterns. A secondment with Amedia takes place in September 2026.",
                 startDate: "2025-10-01",
@@ -1262,31 +1285,36 @@
             },
             {
                 id: 4,
-                name: "News Recommendation ✓ completed",
-                completed: true,
-                partners: ["DN Media Group"],
+                sdg: "9, 16",
+                name: "News Recommendation",
+                partners: ["DN Media Group", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Sequential recommendation system testing at DN, including preparatory data analysis of reading time patterns by hour of day. A/B testing implementation. The project concluded with a master's thesis, codebase, and poster delivered.",
+                description: "Sequential recommendation system testing at DN, including preparatory data analysis of reading time patterns by hour of day and A/B testing implementation. The first project phase concluded with a master's thesis, codebase, and poster delivered. A second project phase started in summer 2026.",
                 startDate: "2025-04-01",
-                endDate: "2026-07-31",
+                endDate: "2027-06-30",
                 phases: [
                     { type: 1, start: "2025-04-01", end: "2025-09-30", name: "Project Ideation" },
                     { type: 2, start: "2025-07-01", end: "2025-09-30", name: "Data Sharing" },
                     { type: 3, start: "2025-07-01", end: "2026-03-31", name: "Data Analysis" },
                     { type: 4, start: "2026-04-01", end: "2026-05-31", name: "A/B Testing" },
-                    { type: 5, start: "2026-06-01", end: "2026-07-31", name: "Reporting & Finalization" }
+                    { type: 5, start: "2026-06-01", end: "2026-06-30", name: "Reporting & Finalization (Phase 1)" },
+                    { type: 1, start: "2026-07-01", end: "2026-08-31", name: "Onboarding (Phase 2)" },
+                    { type: 2, start: "2026-09-01", end: "2026-10-31", name: "Data Sharing (Phase 2)", current: true },
+                    { type: 3, start: "2026-11-01", end: "2027-03-31", name: "Data Analysis (Phase 2)" },
+                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Reporting & Finalization (Phase 2)" }
                 ],
                 team: {
                     "DN Media Group": ["Krishna Mohan Shah (Key Contact)"],
                     "MediaFutures": ["Prof. Mehdi Elahi (Supervisor)", "Olav Særud Gangenes (MA Student)"]
                 },
-                strategicValue: "Explores how gamified, trust-building interfaces can re-engage young audiences with local news, addressing news avoidance at Bergens Tidende.",
+                strategicValue: "Validated sequential recommendation for DN through live A/B testing, delivering a master's thesis, codebase, and poster that DN can build on.",
                 workPackage: "R1-2"
             },
             {
                 id: 6,
+                sdg: "4, 16",
                 name: "Young Audiences: News Avoidance & Gamification",
-                partners: ["Bergens Tidende", "UvA"],
+                partners: ["Bergens Tidende", "UvA", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Research project exploring how to overcome news avoidance among young audiences through trust building AI tools and gamification approaches. Collaboration with Bergens Tidende is ongoing, with a secondment planned for autumn 2026.",
                 startDate: "2025-10-01",
@@ -1299,14 +1327,15 @@
                     "Bergens Tidende": ["Lasse Lamprecht", "Jan Stian Vold"],
                     "MediaFutures": ["Svenja Lys Forstner (PhD Candidate)"]
                 },
-                strategicValue: "Validated sequential recommendation for DN through live A/B testing, delivering a master's thesis, codebase, and poster that DN can build on.",
+                strategicValue: "Explores how gamified, trust-building interfaces can re-engage young audiences with local news, addressing news avoidance at Bergens Tidende.",
                 workPackage: "R1-2"
             },
             {
                 id: 7,
+                sdg: "9, 4",
                 name: "SuperPods Podcast Platform ✓ completed",
                 completed: true,
-                partners: ["Schibsted"],
+                partners: ["Schibsted", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Interactive podcast platform transforming audio content discovery through dynamic graph visualization of linked segments by topic. Features GenAI-powered transitions, contextual summaries, and natural language search. Users curate custom 'SuperPods' from multiple episodes and creators, enhancing discoverability through topic-based navigation. DN Media Group has expressed interest in picking up the project in the future, particularly around text-to-speech and AI-generated podcasts.",
                 startDate: "2025-01-01",
@@ -1327,18 +1356,23 @@
             },
             {
                 id: 9,
+                sdg: "9, 16",
                 name: "Next Title Recommender Systems",
-                partners: ["NRK", "Uni Klagenfurt"],
+                partners: ["NRK", "Uni Klagenfurt", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
-                description: "Recommender system project for NRK. The first project phase is completed and the collaboration continues, with Jia-Hua Jeng joining the team.",
+                description: "Recommender system project for NRK. The first project phase is completed and a second project phase started in summer 2026, with Jia-Hua Jeng joining the team.",
                 startDate: "2025-07-01",
                 endDate: "2027-06-30",
                 phases: [
                     { type: 1, start: "2025-07-01", end: "2025-12-31", name: "Project Ideation & Onboarding" },
                     { type: 2, start: "2026-01-01", end: "2026-01-31", name: "Data Sharing" },
                     { type: 3, start: "2026-01-19", end: "2026-03-31", name: "Data Analysis" },
-                    { type: 4, start: "2026-04-01", end: "2027-03-31", name: "Prototyping & Testing", current: true },
-                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Reporting & Finalization" }
+                    { type: 4, start: "2026-04-01", end: "2026-05-31", name: "Prototyping & Testing" },
+                    { type: 5, start: "2026-06-01", end: "2026-06-30", name: "Reporting & Finalization (Phase 1)" },
+                    { type: 1, start: "2026-07-01", end: "2026-08-31", name: "Onboarding (Phase 2)" },
+                    { type: 2, start: "2026-09-01", end: "2026-10-31", name: "Data Sharing (Phase 2)", current: true },
+                    { type: 3, start: "2026-11-01", end: "2027-03-31", name: "Data Analysis (Phase 2)" },
+                    { type: 5, start: "2027-04-01", end: "2027-06-30", name: "Reporting & Finalization (Phase 2)" }
                 ],
                 team: {
                     "NRK": ["Eva Hagan", "Anja Svartberg", "Kristine Jun Grøttland", "Eirik Sæther", "Gro Nilsen", "Joakim Rishaug"],
@@ -1349,8 +1383,10 @@
             },
             {
                 id: 8,
+                sdg: "16, 9",
                 name: "Verified Satirical Reframing ✓ completed",
-                partners: ["Factiverse", "Bergens Tidende", "UvA"],
+                completed: true,
+                partners: ["Factiverse", "Bergens Tidende", "UvA", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Explores how large language models (LLMs) can help reduce news avoidance through verified satirical reframing of news articles. Combines creative AI reframing with fact-checking for journalistic accuracy, addresses hallucination risks in automated satirical reframing, and uses Factiverse's AI technology to verify AI-reframed satirical news content.",
                 startDate: "2025-01-01",
@@ -1360,7 +1396,7 @@
                     { type: 2, start: "2025-04-01", end: "2025-06-30", name: "Study & Data Collection" },
                     { type: 3, start: "2025-07-01", end: "2025-09-30", name: "Prototype Design & API Implementation" },
                     { type: 4, start: "2025-07-01", end: "2025-12-31", name: "Frontend Development & Testing with Journalists" },
-                    { type: 5, start: "2026-01-01", end: "2026-02-28", name: "Reporting & Finalization", current: true, completed: true }
+                    { type: 5, start: "2026-01-01", end: "2026-02-28", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Factiverse": ["Gaute Kokkvoll (Head of Product)"],
@@ -1372,8 +1408,10 @@
             },
             {
                 id: 12,
+                sdg: "9, 16",
                 name: "NorEventGen Model ✓ completed",
-                partners: ["Nasjonalbiblioteket", "UiO"],
+                completed: true,
+                partners: ["Nasjonalbiblioteket", "UiO", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Event extraction from Norwegian news text using a generation-based approach which formulates the task as text-to-structure generation. Experiments on the Norwegian EDEN dataset, analysis of model predictions and typical system errors, and application to large corpus of raw news texts. The NorEventGen model acquires event ontology knowledge and generates tokens from input sequences for event triggers and arguments. Demonstrates benefits of localizing event ontology to Norwegian and illustrates potential applications for large-scale event analysis in less-resourced languages.",
                 startDate: "2025-01-01",
@@ -1384,7 +1422,7 @@
                     { type: 3, start: "2025-07-01", end: "2025-09-30", name: "Data Analysis & Model Development" },
                     { type: 4, start: "2025-07-01", end: "2025-12-31", name: "Prototyping & Testing" },
                     { type: 4, start: "2025-12-01", end: "2026-02-28", name: "Application to Large Corpus" },
-                    { type: 5, start: "2026-02-01", end: "2026-04-30", name: "Reporting & Finalization", current: true, completed: true }
+                    { type: 5, start: "2026-02-01", end: "2026-04-30", name: "Reporting & Finalization" }
                 ],
                 team: {
                     "Nasjonalbiblioteket": [],
@@ -1396,8 +1434,9 @@
             },
             {
                 id: 13,
+                sdg: "3, 16",
                 name: "VITAL – Health and Lifestyle News Analyzer",
-                partners: ["Factiverse", "UvA", "UiS"],
+                partners: ["Factiverse", "UvA", "UiS", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Reframing, verifying, and personalizing health and lifestyle news using cutting edge LLMs. VITAL detects health claims directly in news articles, assesses the specific claim against trusted sources, and communicates the evidence to different user groups. First release of the backend was presented at Arendalsuka on 11 August 2026. Project website: vital.mediafutures.no",
                 startDate: "2025-09-01",
@@ -1410,16 +1449,17 @@
                     { type: 5, start: "2027-07-01", end: "2027-12-31", name: "Reporting & Finalization" }
                 ],
                 team: {
-                    "Factiverse": [],
-                    "MediaFutures": ["Christoph Trattner", "Alain Starke (WP2)", "Yelyzaveta Lysova (WP2)", "Tobias Jovall Wessel (WP2)"]
+                    "Factiverse": ["Gaute", "Vinay Setty"],
+                    "MediaFutures": ["Christoph Trattner", "Alain Starke (WP2)", "Yelyzaveta Lysova (WP2)", "Tobias Jovall Wessel (WP2)", "Vinay Setty (WP3)"]
                 },
                 strategicValue: "Tackling health misinformation as a main target, developing AI-powered tools to reframe, verify, and personalize lifestyle news content to combat misinformation in health and lifestyle journalism.",
-                workPackage: "R1-2"
+                workPackage: "R1-2, RS3"
             },
             {
                 id: 14,
+                sdg: "3, 16",
                 name: "VaccAI: Conflict-Aware AI for Trustworthy Health Communication",
-                partners: ["Factiverse", "Faktisk.no"],
+                partners: ["Factiverse", "Faktisk.no", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Pioneering work combining large language models with geospatial health data to forecast disease outbreaks and model public health belief systems in conflict-affected regions. Applies AI-driven misinformation modeling and multilingual natural language processing to detect and respond to health misinformation across diverse media ecosystems. Focuses on Retrieval-Augmented Generation architectures and real-time misinformation detection in crisis settings, with particular emphasis on vaccine confidence during wartime and crisis communication.",
                 startDate: "2026-03-01",
@@ -1441,8 +1481,9 @@
             },
             {
                 id: 15,
+                sdg: "4, 16",
                 name: "CuratedAI: Curated Information and AI Media Literacy",
-                partners: ["Amedia", "Faktisk.no", "NRK", "TV2"],
+                partners: ["Amedia", "Faktisk.no", "NRK", "TV2", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Building Appropriate Media Trust in Publics through the Curated Information Framework (CIF), providing a systematic approach to audience-specific AI communication that determines what kind of explanatory information should be shared with users, when, and how. Focuses on AI ethics, Human-Computer Interaction, and Sociotechnical Systems development for responsible recommender systems and explainable AI for media. Translates abstract ethical principles into actionable design patterns for Norwegian newsrooms to maintain high levels of public trust in the age of AI.",
                 startDate: "2026-03-01",
@@ -1466,9 +1507,10 @@
             },
             {
                 id: 16,
+                sdg: "16, 17",
                 name: "GIRAI Data Collection ✓ completed",
                 completed: true,
-                partners: ["Global Center on AI Governance"],
+                partners: ["Global Center on AI Governance", "UiB"],
                 type: "Research-Led Innovation Project",
                 description: "Leading Norway's country-level data collection for the Global Index for Responsible AI. Gathering evidence on government frameworks, implementation, and civil society involvement across five dimensions: Inclusion & Diversity, Ethics & Sustainability, Labour & Skills, Trust & Safety, and Use of AI in Public Sector Delivery. Participating in Global Research Network of 150+ responsible AI experts worldwide. The index report has been published as of July 2026 and the findings will be presented at the MediaFutures Annual Meeting 2026.",
                 startDate: "2025-10-01",
@@ -1489,8 +1531,9 @@
             },
             {
                 id: 17,
+                sdg: "16",
                 name: "AI Political Discourse Analyzer",
-                partners: ["Factiverse"],
+                partners: ["Factiverse", "UiB"],
                 type: "Research-Led Innovation Project",
                 description: "Model-based approach for political discourse analysis that enables transparent reasoning, handles complex contexts, improves consistency and reproducibility. Contextualizes speech, identifies speaker's position and key strategies, uncovers underlying tensions. Useful for policy, media, and education. A new prototyping round is underway, with further collaboration with Factiverse planned.",
                 startDate: "2025-06-01",
@@ -1511,8 +1554,9 @@
             },
             {
                 id: 18,
+                sdg: "16, 4",
                 name: "Demokratibasen",
-                partners: ["Bergens Tidende"],
+                partners: ["Bergens Tidende", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Using AI to support local newsrooms by empowering local democracy. Making municipal documents easily accessible to local journalists in Norway, as well as researchers, politicians, and the general public. Received NOK 500,000 innovation seed funding from UiB Idé with high societal relevance and clear potential for both technological and organizational growth.",
                 startDate: "2025-01-01",
@@ -1533,9 +1577,10 @@
             },
             {
                 id: 19,
+                sdg: "4, 16",
                 name: "News Avoidance & Needs-Based Explanations ✓ completed",
                 completed: true,
-                partners: ["UvA"],
+                partners: ["UvA", "UiB"],
                 type: "Research-Led Innovation Project",
                 description: "Research study testing the effect of needs-based explanations (that address different main reasons for news avoidance) for recommended articles on young users' selection of low-interest news articles. Explores how explanations can reduce selective news avoidance among young audiences. Resulted in a workshop paper presented in June 2026.",
                 startDate: "2026-01-05",
@@ -1557,9 +1602,10 @@
             },
             {
                 id: 20,
+                sdg: "9",
                 name: "Personalizing News Headlines with Retrieval-Augmented Generation ✓ completed",
                 completed: true,
-                partners: ["TV2"],
+                partners: ["TV2", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Leveraging retrieval-augmented generation (RAG) to create personalized news headlines that enhance reader engagement and click-through rates for TV2.",
                 startDate: "2025-04-01",
@@ -1580,8 +1626,9 @@
             },
             {
                 id: 21,
+                sdg: "9, 10",
                 name: "Group-based Content Personalization",
-                partners: ["TV2"],
+                partners: ["TV2", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Comparing style-based groups against demographic groups as a basis for content personalization. Developed in collaboration with TV2, who are working on generative content recommendation. Jiajing Wan will undertake a secondment as part of the project.",
                 startDate: "2025-12-01",
@@ -1602,9 +1649,10 @@
             },
             {
                 id: 22,
+                sdg: "8, 9",
                 name: "AI Video Summarization and Clipping Tools ✓ completed",
                 completed: true,
-                partners: ["TV2"],
+                partners: ["TV2", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Follow-up to the successful AI Video Summarization and Clipping Tools with TV2. Developing a multimodal video summarization tool as an extension of the AI video clipping project.",
                 startDate: "2025-08-01",
@@ -1625,8 +1673,9 @@
             },
             {
                 id: 26,
+                sdg: "16, 9",
                 name: "Fine-tuning LLMs for Robust Numerical Fact-Checking",
-                partners: ["UiS", "Factiverse"],
+                partners: ["UiS", "Factiverse", "UiB"],
                 type: "Research-Led Innovation Project",
                 description: "Exploring adversarial fine-tuning to increase robustness of LLMs used for fact-checking. Previous research suggests non-fine-tuned LLMs can be easily fooled to misclassify claims when numerical values are altered, even when evidence does not support the claim. Peter's secondment takes place with Factiverse.",
                 startDate: "2026-01-01",
@@ -1647,9 +1696,10 @@
             },
             {
                 id: 23,
+                sdg: "9, 16",
                 name: "Controlled Personalization in News RecSys Project ✓ completed",
                 completed: true,
-                partners: ["Schibsted"],
+                partners: ["Schibsted", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Understanding impact of personalization on Aftenposten's mobile news app. Performing multifaceted analysis of A/B test outcomes, covering click-through rates, user engagement, and effects on user behavior. In-depth analysis confirming value of personalization on multiple levels.",
                 startDate: "2026-01-01",
@@ -1670,8 +1720,9 @@
             },
             {
                 id: 24,
+                sdg: "9, 10",
                 name: "Norwegian Embedding Benchmarking",
-                partners: ["UiO", "TV2", "Amedia", "DN Media Group", "Nasjonalbiblioteket"],
+                partners: ["UiO", "TV2", "Amedia", "DN Media Group", "Nasjonalbiblioteket", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Developing and evaluating embedding models based on Norwegian LLMs for the media sector. Embeddings are used to automatically assess similarities between news articles, different versions of articles, and finding related content. A paper on Bayesian LLM benchmarking (Ryan Marinelli) is to be presented at the 40th International Workshop on Statistical Modelling (IWSM), with an accompanying open-source package (bayesbench), documentation, and a Hugging Face demo space.",
                 startDate: "2026-01-01",
@@ -1695,8 +1746,9 @@
             },
             {
                 id: 25,
+                sdg: "9, 10",
                 name: "User Needs Modeling for Norwegian News",
-                partners: ["UiO", "TV2", "Amedia"],
+                partners: ["UiO", "TV2", "Amedia", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Users engage with news in different ways based on their needs (updates, perspective, inspiration, entertainment). Developing NLP capabilities to classify news articles according to user needs to assist media outlets in news personalization. Data has been received from Amedia and first experimentation is underway.",
                 startDate: "2026-01-01",
@@ -1718,8 +1770,9 @@
             },
             {
                 id: 27,
+                sdg: "16, 10",
                 name: "Hate Symbol Detection with Open Databases",
-                partners: ["Faktisk.no"],
+                partners: ["Faktisk.no", "Factiverse", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Automated detection of hate symbols in visual media content, drawing on open databases of known symbols and iconography. Supports fact-checkers and newsrooms in identifying extremist imagery at scale. A paper based on the project has been submitted for publication.",
                 startDate: "2026-02-01",
@@ -1733,6 +1786,7 @@
                 ],
                 team: {
                     "Faktisk.no": ["Runa Victoria Engen"],
+                    "Factiverse": ["Vinay Setty"],
                     "MediaFutures": ["Hina Afridi"]
                 },
                 strategicValue: "Strengthens Faktisk.no's capacity to identify extremist and hateful imagery in circulation, extending fact-checking beyond text to visual content and supporting a safer information environment.",
@@ -1740,8 +1794,9 @@
             },
             {
                 id: 28,
+                sdg: "9, 4",
                 name: "Liquid News Concept Project",
-                partners: ["UiO"],
+                partners: ["UiO", "UiB"],
                 type: "Research-Led Innovation Project",
                 description: "Exploring the relevance of news media to explore liquid content through LLMs. Investigating innovative approaches to dynamic, adaptive news content formats.",
                 startDate: "2026-01-01",
@@ -1761,8 +1816,9 @@
             },
             {
                 id: 29,
+                sdg: "10, 16",
                 name: "Popularity Bias in News Recommender Systems",
-                partners: ["TV2"],
+                partners: ["TV2", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Investigating popularity bias in news recommender systems at TV2 — how recommendation algorithms over-expose already popular content — and exploring mitigation strategies that preserve editorial diversity.",
                 startDate: "2026-03-01",
@@ -1783,8 +1839,9 @@
             },
             {
                 id: 30,
+                sdg: "16",
                 name: "Social Network Analysis & Fact-Checking of Protest Movements",
-                partners: ["NRK"],
+                partners: ["NRK", "Factiverse", "UiB"],
                 type: "Industry Partner-Led Innovation Project",
                 description: "Project under ideation with NRK's investigative journalism team in Bergen, exploring social network analysis and fact-checking of emerging protest movements online, with the upcoming Norwegian election as context. Decision on the precise topic expected in October/November 2026.",
                 startDate: "2026-06-01",
@@ -1842,6 +1899,10 @@
             return (months / totalMonths) * 100;
         }
 
+        const SDG_COLORS = {"1":"#F9CFD4","2":"#F8EBD4","3":"#D8EAD3","4":"#F2CCD1","5":"#FFD4CE","6":"#CFF0F9","7":"#FEF2C9","8":"#EBCCD5","9":"#FFDECF","10":"#F8CBDE","11":"#FFE9CF","12":"#F1E5D1","13":"#D5E3D6","14":"#C9E8F7","15":"#DAF1D0","16":"#C7DEE9","17":"#CCD7DE"};
+        const SDG_TEXT = {"1":"#A01929","2":"#9B7429","3":"#356F27","4":"#8A1220","5":"#B22917","6":"#1B849E","7":"#B08808","8":"#71122E","9":"#B14A1A","10":"#9B0D48","11":"#B16E19","12":"#866120","13":"#2C5830","14":"#076A98","15":"#3C861E","16":"#00496E","17":"#12324A"};
+        const SDG_NAMES = {"1":"No Poverty","2":"Zero Hunger","3":"Good Health and Well-being","4":"Quality Education","5":"Gender Equality","6":"Clean Water and Sanitation","7":"Affordable and Clean Energy","8":"Decent Work and Economic Growth","9":"Industry, Innovation and Infrastructure","10":"Reduced Inequalities","11":"Sustainable Cities and Communities","12":"Responsible Consumption and Production","13":"Climate Action","14":"Life Below Water","15":"Life on Land","16":"Peace, Justice and Strong Institutions","17":"Partnerships for the Goals"};
+
         function renderProjects(filteredProjects = projects) {
             const container = document.getElementById('projectsContainer');
             container.innerHTML = '';
@@ -1868,12 +1929,24 @@
 
                 // SDG cell
                 const sdgCell = document.createElement('div');
-                sdgCell.style.fontSize = '0.85em';
-                sdgCell.style.color = '#6c757d';
                 sdgCell.style.textAlign = 'center';
-                sdgCell.style.padding = '10px 15px';
+                sdgCell.style.padding = '10px 8px';
                 sdgCell.style.borderRight = '1px solid #e9ecef';
-                sdgCell.textContent = 'TBD';
+                if (project.sdg) {
+                    project.sdg.split(',').map(n => n.trim()).forEach(num => {
+                        const badge = document.createElement('span');
+                        badge.className = 'sdg-badge';
+                        badge.style.background = SDG_COLORS[num] || '#e9ecef';
+                        badge.style.color = SDG_TEXT[num] || '#6c757d';
+                        badge.textContent = num;
+                        badge.title = 'SDG ' + num + (SDG_NAMES[num] ? ': ' + SDG_NAMES[num] : '');
+                        sdgCell.appendChild(badge);
+                    });
+                } else {
+                    sdgCell.style.fontSize = '0.85em';
+                    sdgCell.style.color = '#6c757d';
+                    sdgCell.textContent = 'TBD';
+                }
                 row.appendChild(sdgCell);
 
                 // Partners cell
